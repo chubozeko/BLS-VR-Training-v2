@@ -73,3 +73,15 @@ Plugins/**/Intermediate/*
 
 # Cache files for the editor to use
 DerivedDataCache/*
+
+# Exclude large imported content
+TestScene_9.5.2025
+Content/Characters/*
+Content/Metahumans/*
+Content/References/AutomotiveMats/Materials/*
+Content/ModularBuildingSet/*
+Content/CarConfigurator/*
+Content/Cars/*
+Content/Environment_Set/*
+Content/Megascans/*
+Content/CitySampleVehicles/*
