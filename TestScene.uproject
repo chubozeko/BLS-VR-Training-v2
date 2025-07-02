@@ -1,16 +1,13 @@
 {
 	"FileVersion": 3,
-	"EngineAssociation": "5.3",
+	"EngineAssociation": "5.5",
 	"Category": "",
 	"Description": "",
 	"Modules": [
 		{
 			"Name": "TestScene",
 			"Type": "Runtime",
-			"LoadingPhase": "Default",
-			"AdditionalDependencies": [
-				"Engine"
-			]
+			"LoadingPhase": "Default"
 		}
 	],
 	"Plugins": [
@@ -39,8 +36,7 @@
 		},
 		{
 			"Name": "VarjoOpenXR",
-			"Enabled": false,
-			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/1804011a48a743cbbeb9336edcafe923"
+			"Enabled": false
 		},
 		{
 			"Name": "OpenXR",
@@ -79,7 +75,7 @@
 		},
 		{
 			"Name": "OnlineSubsystemOculus",
-			"Enabled": true
+			"Enabled": false
 		}
 	],
 	"TargetPlatforms": [

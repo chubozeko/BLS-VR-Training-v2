@@ -63,7 +63,7 @@ void UMorphMapBP::CompressionProcessor(float DistanceToChest, float LastValue, f
         }
         }
         Depth = StartDepth - CompressionDepth;
-        DataReading = FString::FromInt(CompressionCount), "," + FString::SanitizeFloat(Depth) + "," + FString::SanitizeFloat(Frequency) + ",";
+        // DataReading = FString::FromInt(CompressionCount), "," + FString::SanitizeFloat(Depth) + "," + FString::SanitizeFloat(Frequency) + ",";
         CompressionDepth = 1000.0;
                 
     }   
